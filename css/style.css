@@ -24,6 +24,7 @@ header{
     /* padding: 10px; */
 }
 .logo{
+    color: #ededed;
     display: flex;
     align-items: center;
     
@@ -32,9 +33,10 @@ nav a{
     font-weight: 400;
     align-items: center;
     padding-right: 100px;
+    transition: color 0.5s ease;
 }
 nav a:hover{
-    color: blue;
+    color: rgb(6, 6, 110);
 }
 
 
@@ -105,50 +107,94 @@ nav a:hover{
 }
 
 .thero{
+    font-weight: 300;
     padding-top: 100px;
     font-size: 70px;
     text-align: center;
     color: #F2F2F2;
 }
 .nombre{
+    font-weight: 400;
     margin-top: 100px;
     font-size: 100px;
     text-align: center;
     color: #F2F2F2;
 }
 
+.lb{
+   
+    background-color: #ededed;
+}
 
-
-
+.bl{
+    font-size: 50px;
+    color: #04060D;
+    text-align: center;
+}
 
 
 
 .acerca{
+    color: #ededed;
      /* background-color: yellow;  */
     height: 100vh;
 }
+
+.acer{
+    text-align: center;
+}
+
+
 .about{
+
+    background-image: linear-gradient(to right,#8594eb ,#e4a321  );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 50px;
     padding-top: 30px;
     /* padding-bottom: 10px; */
     text-align: center;
 }
 
 
+
 .exp{
+    color: #ededed;
     height: 200px;
 }
 .texp{
+    background-image: linear-gradient(to right,#8594eb ,#e4a321  );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     text-align: center;
 }
 
 
+.experiencia{
+    color: #ededed;
+    display: flex;
+    justify-content: space-between;
+}
+/* .hexp{
+    text-align: center;
+    justify-content: space-between;
+} */
+
 
 .skills{
-    
+    color: #ededed;
     /* background-color: blueviolet; */
     height: 50vh;
 }
 .hskills{
+
+    background-image: linear-gradient(to right,#8594eb ,#e4a321  );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
     text-align: center;
     font-size: 50px;
     padding-top: 15px;
@@ -164,21 +210,17 @@ nav a:hover{
 
 
 .container{
-    
+    color: black; 
 /* background-color: brown; */
-padding: 10px;
+padding: 20px;
 /* border: 1px solid black; */
 display: flex;
-
 text-align: center;
-
-
 justify-content: center;
 height: 100px;
-
-
 /* flex-wrap: wrap; */
 }
+
 
 .item{
     background-color: aliceblue;
@@ -194,39 +236,16 @@ height: 100px;
 }
 
 
-/* .plogo{
-    font-size: 10px;
-    text-align: right
-
-} */
-/* .item img {
-
-    margin-right: 10px; 
-} */
-
 
 .pr{
+    background-image: linear-gradient(to right,#8594eb ,#e4a321  );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
     font-size: 80px;
     text-align: center;
 }
-/* .proyect{
-height: 100vh;
-background-color:rebeccapurple ;
-display: flex;
-} */
-
-
-
-
-
-/* .fmig{
-    display: flex;
-    justify-content: space-between;
-}
-.lf{
-    display: flex;
-    justify-content: space-between;
-} */
 
 
 
@@ -256,24 +275,19 @@ footer {
 }
 
 .itemf p {
+    color: #ededed;
     font-size: 20px;
     margin: 0;
 }
 
-
-
-
-
-
-
-
-
-/* .contact{
-    background-color: yellowgreen;
-} */
 .contact h2{
+    background-image: linear-gradient(to right,#8594eb ,#e4a321  );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+
     font-size: 40px;
-    color: #ededed;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -318,6 +332,11 @@ form button {
     box-shadow: 0 0 10px gray;
 }
 
+.ft{
+    color: #ededed;
+    font-size: 50px;
+    text-align: center;
+}
 
 
 
@@ -327,71 +346,68 @@ form button {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
- /*#04060D*/
-
-/* .header{
-    background-color: aqua;
+.pp {
+    /* padding-right: 30px; */
     display: flex;
-    align-content: end;
-}  */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh; /* Ajuste a toda la ventana gráfica */
+    width: 80%;
+    border-radius: 100px;
+    background-color: #0F2859;
+}
+/* #0F2859 */
 
-/* .menu{
-background-color: rgb(246, 247, 248);
+.proyect {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    gap: 15px;
-
+    background-color:#0460D9 ;
+    margin: 15px;
+    padding: 20px;
+    width: 80%;
+    height: 30vh;
+    border-radius: 60px;
+    color: white; /* Color del texto */
 }
-.logo{
-    color:rgb(255, 94, 0);
-    font-size: 20px;
+
+.ip {
+    max-width: 100px;
+    border: 3px solid #ededed;
+    border-radius: 10px;
+    margin-right: 15px;
 }
-.emenu{
-    display: inline-block;
-    padding: 0px,20px;
+
+.text-box {
+    color: violet;
+    text-align: left; /* Alineación del texto a la izquierda */
 }
-a{
-    color: aquamarine;
-    text-decoration: none;
-}
- */
 
 
 
-
-
-
-
-
-
-
-
-
-
- 
-
-/*
-.footer{
+/* 
+.pp{
     display: flex;
-    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    width: 80%;
+    background-color: blue;
 }
-.elf{
-    display: flex;
-    align-content: center;
+.proyect{
+    background-color: blue;
+    margin: 150px;
+     width: 70%; 
+}
+.ip{
+    background-color: blue;
+    max-width: 100px;
+    float: left;
+    border: 3px solid #ededed;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.tex-box{
+    color: violet;
 } */
+ /*#04060D*/
