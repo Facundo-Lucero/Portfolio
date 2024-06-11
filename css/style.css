@@ -204,44 +204,55 @@ footer {
 
 
 
-
-
-
-
-/* footer {
-    background-color: #f0f0f0;
-    padding: 20px;
+.contact{
+    /* background-color: yellowgreen; */
+}
+.contact h2{
+    font-size: 40px;
+    color: #ededed;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact form{
+    /* background-color: blueviolet; */
+    padding-left: 350px;
+    width: 600px;
     text-align: center;
 }
-
-.footer {
+form .input-box{
+    /* background-color: teal; */
     display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.item {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 }
 
-.item img {
-    margin-bottom: 15px; */
-    /* padding-left: 15px; */
-/* }
+.input-box .input-field{
+    width: 48.5%;
+}
 
-.item p {
-    margin: 0;
-} */
-
-
-
-
+.field .items{
+    width: 100%;
+    padding: 18px;
+    background-color: transparent;
+    border: 2px solid gray;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #ededed;
+    margin: 12px o;
+}
+.field items::placeholder{
+    color: rgba(255,255 ,255,.3);
+}
+form .textarea-field .items{
+    resize: none;
+}
+form button {
+    padding: 12px 30px;
+    background-color: aqua;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px aqua;
+}
 
 
 
