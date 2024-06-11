@@ -60,7 +60,7 @@ nav a:hover{
 
 
 .acerca{
-     background-color: yellow; 
+     /* background-color: yellow;  */
     height: 100vh;
 }
 .about{
@@ -71,7 +71,7 @@ nav a:hover{
 
 
 .exp{
-    height: 100vh;
+    height: 200px;
 }
 .texp{
     text-align: center;
@@ -150,6 +150,108 @@ height: 100vh;
 background-color:rebeccapurple ;
 display: flex;
 } */
+
+
+
+
+
+/* .fmig{
+    display: flex;
+    justify-content: space-between;
+}
+.lf{
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+
+
+
+footer {
+    
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Espacio a los lados del footer */
+}
+
+.itemf {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.itemf img {
+    margin-right: 10px;
+}
+
+.itemf p {
+    font-size: 20px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.item img {
+    margin-bottom: 15px; */
+    /* padding-left: 15px; */
+/* }
+
+.item p {
+    margin: 0;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
