@@ -111,7 +111,15 @@ nav a:hover{
     padding-top: 100px;
     font-size: 70px;
     text-align: center;
-    color: #F2F2F2;
+    
+    background-image: linear-gradient(to right,#8594eb ,#e4a321  );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+
+
 }
 .nombre{
     font-weight: 400;
@@ -141,6 +149,7 @@ nav a:hover{
 }
 
 .acer{
+    font-size: 30px;
     text-align: center;
 }
 
@@ -151,7 +160,7 @@ nav a:hover{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 50px;
+    font-size: 80px;
     padding-top: 30px;
     /* padding-bottom: 10px; */
     text-align: center;
@@ -169,6 +178,7 @@ nav a:hover{
     -webkit-background-clip: text;
     color: transparent;
     text-align: center;
+    font-size: 80px;
 }
 
 
@@ -198,11 +208,13 @@ nav a:hover{
     text-align: center;
     font-size: 50px;
     padding-top: 15px;
+    font-size: 80px;
 }
 .h-skills{
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
     padding-top: 15px; 
+    
 }
 
 
@@ -242,7 +254,7 @@ height: 100px;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    
+    padding-bottom: 15px;
     font-size: 80px;
     text-align: center;
 }
@@ -287,7 +299,7 @@ footer {
     color: transparent;
 
 
-    font-size: 40px;
+    font-size: 80px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -324,24 +336,50 @@ form .input-box{
 form .textarea-field .items{
     resize: none;
 }
+
+
+
+
+
+
+
+
+
+
+/* .submit{
+    transition: color 0.5s ease;
+}
+
+
+.submit:hover{
+    color: rgb(6, 6, 110);
+} */
+
+
+
 form button {
+    
     padding: 12px 30px;
     background-color: gray;
     border: none;
     border-radius: 20px;
     box-shadow: 0 0 10px gray;
+    color: white;
+    cursor: pointer; /* Cambia el cursor al pasar por el botón */
+    transition: background-color 0.3s ease; /* Transición para el cambio de color */
 }
+
+form button:hover {
+    background-color: rgb(6, 6, 110); /* Nuevo color al hacer hover */
+}
+
+
 
 .ft{
-    color: #ededed;
-    font-size: 50px;
+    color: white;
+    font-size: 60px;
     text-align: center;
 }
-
-
-
-
-
 
 
 
@@ -372,19 +410,24 @@ form button {
 }
 
 .ip {
-    max-width: 100px;
+    max-width: 300px;
     border: 3px solid #ededed;
     border-radius: 10px;
     margin-right: 15px;
 }
 
 .text-box {
-    color: violet;
+    color: white;
     text-align: left; /* Alineación del texto a la izquierda */
 }
 
-
-
+.tp{
+    font-size: 30px;
+}
+.utn{
+    text-align: center;
+    font-size: 30px;
+}
 /* 
 .pp{
     display: flex;
