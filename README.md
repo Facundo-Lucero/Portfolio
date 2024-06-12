@@ -8,7 +8,7 @@
 
 --Puedes verlo en el siguiente enlace: https://facundo-lucero.github.io/Portfolio/ 
 
-##REFLEXIONES: --Éste fue mi primer trabajo con HTML y CSS, me permitió ver un progreso y disfrutar del proceso. 
+###REFLEXIONES: --Éste fue mi primer trabajo con HTML y CSS, me permitió ver un progreso y disfrutar del proceso. 
 
 Espero conforme a ir aprendiendo poder volver acá y perfeccionarlo.
 
