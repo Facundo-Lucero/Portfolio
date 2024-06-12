@@ -8,6 +8,7 @@ body{
     align-content: center ;
     justify-content: center;
     font-family: 'Acumin Pro', sans-serif;
+    /* height: 100vh; */
     /* text-align: center; */
 } 
 
@@ -151,6 +152,7 @@ nav a:hover{
 .acer{
     font-size: 30px;
     text-align: center;
+    font-weight: 100;
 }
 
 
@@ -355,7 +357,9 @@ form .textarea-field .items{
     color: rgb(6, 6, 110);
 } */
 
-
+.submit{
+    padding-left: 10vh;
+}
 
 form button {
     
@@ -424,33 +428,91 @@ form button:hover {
 .tp{
     font-size: 30px;
 }
-.utn{
+
+
+
+.acerca .utn {
     text-align: center;
+    font-weight: 100;
     font-size: 30px;
 }
-/* 
-.pp{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    height: 100px;
-    width: 80%;
-    background-color: blue;
-}
-.proyect{
-    background-color: blue;
-    margin: 150px;
-     width: 70%; 
-}
-.ip{
-    background-color: blue;
-    max-width: 100px;
-    float: left;
-    border: 3px solid #ededed;
-    border-radius: 10px;
-    margin-right: 15px;
-}
-.tex-box{
-    color: violet;
-} */
+
  /*#04060D*/
+
+
+
+/*resposive para 1440*/
+
+
+ @media (min-width:1440px){
+ header{
+        min-width: none;
+        
+    }
+ 
+.acer{
+    font-size: 30px;
+}
+
+
+.hexp{
+    padding-left: 15vh;
+    
+    /* justify-content: space-between; */
+}
+
+.hexp1{
+   
+    padding-right: 35vh;
+    /* justify-content: space-between; */
+}
+
+.pp{
+    margin-left: 10vh;
+    width: 60%;
+}
+/* .contact{
+    padding-right: 8vh;
+} */
+
+.ft{
+    padding-right: 15vh;
+}
+.footer{
+    justify-content: space-between;
+}
+
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* @media (max-width:768px){
+    .project__content h2{
+        font-size: 25px;
+    }
+    .menu__wrap{
+        display: none;
+    }
+}
+
+@media(max-width:480px){
+    .tittle__container__text{
+        font-size: 12px;
+    }
+    .project__content h2{
+        font-size: 15px;
+    }
+} */
+
+
